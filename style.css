@@ -1,20 +1,20 @@
 .bat{
-    transition: transform 0.5s ease-in;
+    transition: transform 0.6s ease-in;
 }
 .field:hover .bat{
-    transform: rotate(-30deg);
+    transform: rotate(-40deg);
     transform-origin:  right top;
 
 }
 .ball{
-    height: 20px;
-    width: 20px;
+    height: 15px;
+    width: 15px;
     border-radius: 50%;
     background-color: red;
     position: relative;
-    left: 150px;
+    left: 180px;
    transition: transform 1.5s ease-in 0.3s;
 }
 .field:hover .ball{
-transform: translate(1000px, -200px);
+transform: translate(900px, -200px);
 }
